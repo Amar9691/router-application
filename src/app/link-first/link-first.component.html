@@ -1,0 +1,10 @@
+<div class="container p-4">
+    {{ username$ | async }}!
+    <ul class="list-group list-group-flush list-group-horizontal flex-fill">
+        <li class="list-group-item"><a class="nav-link" routerLink="child-a" routerLinkActive="active"
+                ariaCurrentWhenActive="page">Child 1</a></li>
+        <li class="list-group-item"><a class="nav-link" routerLink="child-b" routerLinkActive="active"
+                ariaCurrentWhenActive="page">Child 2</a></li>
+    </ul>
+</div>
+<router-outlet></router-outlet>

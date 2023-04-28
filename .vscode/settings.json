@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "editor.insertSpaces": true,
+  "html.format.contentUnformatted": "pre,code,textarea",
+  "editor.tabSize": 4,
+  "editor.detectIndentation": false,
+  "html.format.indentInnerHtml": true,
+  "prettier.useEditorConfig": false
+}
